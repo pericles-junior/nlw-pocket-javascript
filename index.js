@@ -10,22 +10,32 @@
 // // console = objeto / log = função
 
 // arrays, objetos
-let meta = {
-    value: 'ler um livro por mês',
-    checked: false
-}
+// let meta = {
+//     value: 'ler um livro por mês',
+//     checked: false
+// }
 
-let metas = [
-    meta,
-    {
-        value: "estudar programação 1h ou mais todos os dias",
-        checked: false
-    }
-]
+// let metas = [
+//     meta,
+//     {
+//         value: "estudar programação 1h ou mais todos os dias",
+//         checked: false
+//     }
+// ]
 
-console.log(metas[1].value)
+// console.log(metas[1].value)
 
 // function // arrow function
 // const criarMeta = () => {}
 
 // function criarMeta() {}
+
+const start = () => {
+    let count = 0
+    while(count < 10){
+        console.log(count)
+        count++
+    }
+}
+
+start()
